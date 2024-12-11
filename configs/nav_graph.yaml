@@ -1,0 +1,89 @@
+building_name: rmf_kabam_office_20241021
+levels:
+  New_RMF_Map:
+    lanes:
+    - - 0
+      - 1
+      - {speed_limit: 0}
+    - - 1
+      - 0
+      - {speed_limit: 0}
+    - - 0
+      - 2
+      - {speed_limit: 0}
+    - - 2
+      - 0
+      - {speed_limit: 0}
+    - - 2
+      - 3
+      - {speed_limit: 0}
+    - - 3
+      - 2
+      - {speed_limit: 0}
+    - - 3
+      - 4
+      - {door_name: Lab_D01, speed_limit: 0}
+    - - 4
+      - 3
+      - {door_name: Lab_D01, speed_limit: 0}
+    - - 4
+      - 5
+      - {speed_limit: 0}
+    - - 5
+      - 4
+      - {speed_limit: 0}
+    - - 5
+      - 6
+      - {speed_limit: 0}
+    - - 6
+      - 5
+      - {speed_limit: 0}
+    - - 5
+      - 7
+      - {speed_limit: 0}
+    - - 7
+      - 5
+      - {speed_limit: 0}
+    - - 7
+      - 8
+      - {speed_limit: 0}
+    - - 8
+      - 7
+      - {speed_limit: 0}
+    - - 9
+      - 0
+      - {speed_limit: 0, undock_name: colab_dock}
+    - - 0
+      - 9
+      - {dock_name: colab_dock, speed_limit: 0}
+    vertices:
+    - - 22.813091114457833
+      - -9.68421686746988
+      - {is_holding_point: true, name: next_to_dock}
+    - - 12.43046686746988
+      - -9.682210090361446
+      - {is_holding_point: true, name: at_exit}
+    - - 29.149710090361452
+      - -9.692390813253013
+      - {is_holding_point: true, name: next_to_pillar}
+    - - 35.00181475903615
+      - -9.680301204819278
+      - {is_holding_point: true, name: at_glass_door_int}
+    - - 37.574992469879525
+      - -9.670952560240965
+      - {is_holding_point: true, name: at_glass_door_ext}
+    - - 53.80492469879519
+      - -9.682210090361446
+      - {is_holding_point: true, name: outside_mycroft}
+    - - 53.80492469879519
+      - -5.357409638554217
+      - {is_holding_point: true, name: outside_ceo_office}
+    - - 53.80492469879519
+      - -12.953403614457834
+      - {is_holding_point: true, name: next_to_pods}
+    - - 57.273173945783135
+      - -12.953403614457834
+      - {is_holding_point: true, name: at_entrance}
+    - - 25.037089608433735
+      - -8.574126506024097
+      - {dock_name: colab_dock, is_charger: true, is_holding_point: true, name: colab_dock}
