@@ -9,7 +9,7 @@ This repository contains a full-control Robot Middleware Framework (RMF) fleet a
 ## **Dependencies** :books:
 
 *    Ubuntu `22.04` LTS
-*    ROS2 - Humble
+*    [ROS2 - Humble](https://docs.ros.org/en/humble/Installation.html)
 *    [Open-RMF on Humble Hawksbill - Sync (2023-12-29)](https://github.com/open-rmf/rmf/releases/tag/release-humble-231229)
 
 ## **Build** :hammer:
